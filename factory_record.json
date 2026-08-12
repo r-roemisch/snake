@@ -1,0 +1,24 @@
+{
+  "project_id": "SNAKE-101",
+  "project_name": "Nokia 3310 Snake Game",
+  "status": "IN_PROGRESS",
+  "current_task_index": 0,
+  "tasks": [
+    {
+      "id": "TASK-01",
+      "title": "Build Core Snake Mechanics",
+      "status": "PENDING",
+      "skill_required": "skills/snake_dev_skill.md",
+      "target_file": "src/snake_engine.py",
+      "instruction": "Create a standalone Python module with class Snake and class Food for grid-based snake movement, direction handling, growth logic, and wall/self-collision checks."
+    },
+    {
+      "id": "TASK-02",
+      "title": "Build Pygame GUI and Main Loop",
+      "status": "PENDING",
+      "skill_required": "skills/snake_dev_skill.md",
+      "target_file": "src/main.py",
+      "instruction": "Create the main entry point main.py using Pygame. Import snake_engine.py, handle keyboard inputs (Arrow keys), render Nokia-style green/black colors, draw grid, score, and handle Game Over reset."
+    }
+  ]
+}
